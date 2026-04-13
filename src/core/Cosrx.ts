@@ -5,14 +5,14 @@ import { Interceptors } from "./Interceptors.js";
 import { shouldRetry } from "./ShouldRetry.js";
 import { retryDelay } from "./RetryDelay.js";
 import {
-  CosrxError,
-  type BodyMethod,
-  type CosrxConfig,
-  type CosrxInstance,
-  type CosrxRes,
   type InterceptorHandler,
+  type CosrxInstance,
   type NoBodyMethod,
+  type CosrxConfig,
   type RetryConfig,
+  type BodyMethod,
+  type CosrxRes,
+  CosrxError,
 } from "../types/index.js";
 
 export interface Cosrx extends CosrxInstance {}
