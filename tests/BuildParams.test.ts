@@ -5,7 +5,7 @@ function url() {
   return new URL("http://api.example.com/");
 }
 
-describe("buildParams — scalars", () => {
+describe("buildParams scalars", () => {
   it("appends string", () => {
     const u = url();
     buildParams({ q: "hello" }, "repeat", u);
