@@ -35,8 +35,8 @@
     "interceptors",
     "axios"
   ],
-  "author": "vinod09",
-  "license": "ISC",
+  "author": "Vinod Biradar",
+  "license": "MIT",
   "engines": {
     "node": ">=18.0.0"
   },
