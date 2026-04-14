@@ -1,0 +1,24 @@
+{
+  "name": "cosrx-examples",
+  "version": "1.0.0",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "01": "tsx 01-basic.ts",
+    "02": "tsx 02-instance.ts",
+    "03": "tsx 03-interceptors.ts",
+    "04": "tsx 04-retry.ts",
+    "05": "tsx 05-cancel.ts",
+    "06": "tsx 06-deduplication.ts",
+    "07": "tsx 07-upload.ts",
+    "08": "tsx 08-response-types.ts",
+    "09": "tsx 09-error-handling.ts",
+    "10": "tsx 10-auth.ts"
+  },
+  "dependencies": {
+    "@cosrx/core": "file:.."
+  },
+  "devDependencies": {
+    "tsx": "^4.19.2"
+  }
+}
