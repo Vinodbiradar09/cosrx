@@ -1,6 +1,7 @@
 import typescript from "@rollup/plugin-typescript";
 import { defineConfig } from "rollup";
 import dts from "rollup-plugin-dts";
+import terser from "@rollup/plugin-terser";
 
 export default defineConfig([
   {
@@ -9,13 +10,15 @@ export default defineConfig([
       {
         file: "dist/index.mjs",
         format: "esm",
-        sourcemap: true,
+        sourcemap: false,
+        plugins: [terser()],
       },
       {
         file: "dist/index.cjs",
         format: "cjs",
         exports: "named",
-        sourcemap: true,
+        sourcemap: false,
+        plugins: [terser()],
       },
     ],
     plugins: [
