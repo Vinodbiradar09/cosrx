@@ -3,7 +3,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "version": "0.0.48",
+  "version": "0.0.50",
   "description": "Promise based HTTP client built on Fetch with retries, interceptors, cancellation, and request deduplication.",
   "type": "module",
   "main": "./dist/index.cjs",
@@ -17,9 +17,7 @@
     }
   },
   "files": [
-    "dist",
-    "README.md",
-    "LICENSE"
+    "dist"
   ],
   "sideEffects": false,
   "scripts": {
