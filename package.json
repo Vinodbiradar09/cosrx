@@ -30,6 +30,10 @@
     "test:coverage": "vitest run --coverage",
     "prepublishOnly": "npm run build && npm run typecheck && npm test"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Vinodbiradar09/cosrx.git"
+  },
   "keywords": [
     "http",
     "fetch",
@@ -39,6 +43,9 @@
     "axios"
   ],
   "author": "Vinod Biradar",
+  "contributors": [
+    "Vinod Biradar (https://github.com/Vinodbiradar09)"
+  ],
   "license": "MIT",
   "engines": {
     "node": ">=18.0.0"
