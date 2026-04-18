@@ -1,6 +1,6 @@
 # Cosrx
 
-Cosrx is a promise-based HTTP client built on top of the native Fetch API, providing an Axios-style API with retries, interceptors, cancellation, request deduplication, and flexible configuration.
+A lightweight promise-based HTTP client built on top of the native Fetch API, providing an Axios-style API with retries, interceptors, cancellation, request deduplication, and flexible configuration.
 
 It is designed to stay close to web standards while offering the ergonomics required for real-world applications.
 

@@ -8,7 +8,8 @@ import type {
   RetryConfig,
 } from "./types/index.js";
 
-const cosrx = Object.assign(new Cosrx({}), {
+const defaultInstance = new Cosrx({});
+const cosrx = Object.assign(defaultInstance, {
   create(config: CosrxConfig = {}): Cosrx {
     return new Cosrx(config);
   },
